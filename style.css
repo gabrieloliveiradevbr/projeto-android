@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@font-face {
+            font-family: 'iDroid';
+            src: url(fontes/idroid.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+}
+@font-face {
+            font-family: 'Bebas Neue';
+            src: url(fontes/BebasNeue-Regular.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #37C576, #268751, #1A5D37);
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue';
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    margin: auto;
+}
+nav#menu, nav#menu > a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    padding: 50px 20px 10px 20px;
+    font-weight: bold;
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+}
+header > p {
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+}
+body#tela {
+    background-color: #87d3a1;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+main#conteudo {
+    display: block;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0px 0px 15px 15px;    
+}
+main#conteudo > section > article > h1 {
+    font-family: 'iDroid', sans-serif;
+    color: #1A5D37;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 10px 20px 10px;
+    font-size: 60px;
+
+}
+
+main#conteudo > section > article > p {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    text-indent: 40px;
+    text-align: justify;
+    margin-top: 20px;
+}
+span{
+    color: #1A5D37;
+    font-weight: bold;
+}
+section > article.info > h2 {
+    font-family: 'iDroid', sans-serif;
+    color: #1A5D37;
+    padding: 0px 20px 10px 20px;
+    margin: 5px 10px 20px 10px;
+    background-image: linear-gradient(to right, #82D9A0,#94f7b756,white);
+    font-size: 40px;
+
+}
+a{
+    text-align: left;
+    color: #1A5D37;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 15px 20px 15px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container img {
+  width: 1450px;   /* aumenta largura */
+  height: auto;   /* mantém proporção */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+ img#imagem {
+  width: 500px;   /* aumenta largura */
+  height: 300px;   /* mantém proporção */
+  margin: 20px 450px 20px 450px;
+    
+}
+section.video{
+    margin: auto;
+    background-color: #1A5D37;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 100%;
+    position: relative;
+
+}
+article >iframe{
+    margin: auto;
+    position: absolute;
+}
+
+
+section > aside h2.aprendermais {
+    background-color:#37C576;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px 10px 0 0;
+    text-indent: 10px;
+}
+aside.info-ap {
+    padding: 15px;
+    font-family: sans-serif;
+    text-indent: 40px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 27px;
+}
+article.fundo-ap > p{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.fundo-ap{
+    background-color: #87d3a1;
+    border-style: solid;
+    border-color: #87d3a1;
+    border-radius: 0px 0px 15px 15px; 
+
+}
+section#versoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    text-indent: 0;
+}
+ul.meio{
+    padding-right: 500px;
+
+}
+
+#versoes ul  {
+    list-style-type: "✔ ";
+    padding-left: 40px;
+}
+#versoes ul > li > span{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+}
+footer {
+    padding: 20px 10px 20px 10px;
+    margin: 20px 10px 0px 10px;
+    background-color:#1A5D37;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+strong{
+    font-size: 15px;
+}
+.info-ap {
+    padding: 15px;
+    font-family: sans-serif;
+    text-indent: 40px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 27px;
+}
